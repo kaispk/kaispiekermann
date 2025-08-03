@@ -1,0 +1,39 @@
+# Site settings
+title: Kai Spiekermann
+email: k.spiekermann@lse.ac.uk
+description: >-
+  Professor of Political Philosophy in the Department of Government 
+  at the London School of Economics. Research in democratic theory, 
+  philosophy of social sciences, and politics, philosophy and economics.
+
+baseurl: "" # Leave empty if using custom domain
+url: "https://kaispiekermann.net" # Your domain
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - index.md
+  - publications.md
+  - research.md
+  - teaching.md
+  - could-i-be-your-supervisor.md
+
+# Contact info
+author:
+  name: Kai Spiekermann
+  email: k.spiekermann@lse.ac.uk
+  affiliation: London School of Economics
+  office_hours: "Please book on the LSE Student Hub app"
+
+# Social links
+# twitter_username: yourusername
+# github_username: yourusername
+
+# Show excerpts on homepage
+show_excerpts: false
